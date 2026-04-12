@@ -12,8 +12,17 @@ apt update && apt install wget -y
 then
 
 chmod +x wgsetup.sh
+
 ./wgsetup.sh
 
-check firewall
+if no internet check firewall
 
 ufw disable
+
+if can't run or no such file 
+
+sed -i 's/\r$//' wgsetup.sh
+
+then
+
+./wgsetup.sh
