@@ -1,5 +1,13 @@
 # wgsetup quick setting for vps wg
 
+0 connet
+
+connect ssh root@ip
+
+not work
+
+ssh-keygen -R ip
+
 1. start with 
 
 wget https://raw.githubusercontent.com/ruitong23/wgsetup/main/wgsetup.sh
